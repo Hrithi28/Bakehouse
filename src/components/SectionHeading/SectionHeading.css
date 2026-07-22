@@ -1,0 +1,26 @@
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.section-heading--center {
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-heading__title {
+  font-size: clamp(28px, 3.4vw, 38px);
+  line-height: 1.15;
+  max-width: 560px;
+}
+
+.section-heading__description {
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: var(--cocoa-soft);
+  max-width: 480px;
+}

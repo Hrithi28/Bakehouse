@@ -1,0 +1,25 @@
+.product-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3.4;
+  border-radius: var(--radius-m) var(--radius-m) 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.product-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.35), transparent 55%);
+}
+
+.product-image__glyph {
+  width: 42%;
+  height: 42%;
+  color: rgba(58, 36, 24, 0.82);
+  filter: drop-shadow(0 6px 10px rgba(58, 36, 24, 0.18));
+  transition: transform 0.4s ease;
+}
