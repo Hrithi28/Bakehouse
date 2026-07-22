@@ -16,8 +16,8 @@ built for the **Moh Technology — Frontend Developer Internship Assessment**
 Run locally (see **Getting started** below). If you're hosting this on
 Vercel/Netlify, add your deployed URL here before submitting:
 
-- Live demo: `<add hosted URL here>`
-- Repository: `<add GitHub URL here>`
+- Live demo: `https://bakehouse-xi.vercel.app/`
+- Repository: `https://github.com/Hrithi28/Bakehouse`
 
 ## Design direction
 
